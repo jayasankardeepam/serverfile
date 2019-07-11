@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .same
+    {
+
+      margin-left: 8%;
+    display: flex;
+    margin-right: -143px;
+
+    }
+    table{
+      width:70%; 
+    }
+
+
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container" style="width: 50%;">
+
+        <form>
+
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                  </div>
+                <div class="form-group col-md-6">
+                    <label for="age">Age</label>
+                    <input type="text" class="form-control" id="age" placeholder="Age">
+                  </div>
+                  <div class="form-group col-md-6">
+                  <input type="hidden" class="form-control" id="id" placeholder="id">
+                    </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+              
+            
+                  
+                <div class="same">
+                  <div class="form-group col-md-2">
+                    <input type="submit" class="btn btn-primary" id="create" value="create">
+                    </div>
+                    <div class="form-group col-md-2">
+                      <input type="submit" class="btn btn-primary" id="update" value="update">
+                      </div>
+                      <div class="form-group col-md-2">
+                        <input    margin-left: 34%;
+                        display: flex type="submit" class="btn btn-primary" id="delete" value="delete">
+                        </div>
+                       
+                </div>
+             
+              </form>
+            </div>
+            
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">id</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Age</th>
+                  <th scope="col">Address</th>
+                </tr>
+              </thead>
+            </table>
+            
+           
+       
+            <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script> 
+            <script src="client.js"></script>
+            
+</body>
+</html>
